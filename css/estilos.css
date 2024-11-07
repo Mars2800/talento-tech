@@ -1,0 +1,70 @@
+/* Estilo para la barra de información */
+.barra {
+    background: linear-gradient(90deg, #ff5fb7, #093c88); /* Degradado cálido */
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+}
+
+
+.carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+    filter: brightness(0.85);
+}
+
+
+
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+body {
+    background: linear-gradient(to right, #e0eafc, #cfdef3); 
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #4a4a4a;
+    font-weight: bold;
+    background: linear-gradient(to right, #4b6cb7, #182848); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.card-footer {
+    background-color: #f7f7f7;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+.card-footer small:hover {
+
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.info{
+    background-color: #1f1c1c;
+    color: #ffffff;
+    text-align: center; 
+    font-family:monospace;
+}
